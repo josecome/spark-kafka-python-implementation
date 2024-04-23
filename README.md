@@ -5,14 +5,14 @@ This project aim to demostrate implementation of kafka in real world using Pytho
 Download and install JDK: https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html
 
 Download and extract Kafka: https://kafka.apache.org/downloads
-Copy and put in C:, rename the file to kafka
+Copy and put in `C:`, rename the folder to kafka
 
 ## Configuration
-Go to zookeeper.proprieties and set path for zookeeper log files
-Go to server.proprieties and set path for kafka log files
+Go to `zookeeper.proprieties` and set path for zookeeper log files
+Go to `server.proprieties` and set path for kafka log files
 
 ## Running Zookeeper and Kafka
-First run Zookeeper, in Command line go to where you installed kafka:
+First run Zookeeper, in Commandline go to where you installed kafka:
 ### `cd C:\kafka`
 ### `C:\kafka>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties`
 
