@@ -13,23 +13,23 @@ Go to `server.proprieties` and set path for kafka log files
 
 ## Running Zookeeper and Kafka
 First run Zookeeper, in Commandline go to where you installed kafka:
-### `cd C:\kafka`
-### `C:\kafka>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties`
+#### `cd C:\kafka`
+#### `C:\kafka>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties`
 
 Run Kafka
-### `cd C:\kafka\bin\windows`
-### `C:\kafka\bin\windows>kafka-server-start.bat C:\kafka\config\server.properties`
+#### `cd C:\kafka\bin\windows`
+#### `C:\kafka\bin\windows>kafka-server-start.bat C:\kafka\config\server.properties`
 
 ## Testing Kafka
 Producer
-### `C:\kafka\bin\windows>kafka-console-producer.bat --topic TEST-TOPIC --broker-list localhost:9092`
-### `>Test Message`
+#### `C:\kafka\bin\windows>kafka-console-producer.bat --topic TEST-TOPIC --broker-list localhost:9092`
+`>Test Message`
 
 Consumer
-### `kafka-console-producer.bat --topic my_favorite_topic --broker-list localhost:9092`
-### `>Test Message`
+#### `kafka-console-producer.bat --topic my_favorite_topic --broker-list localhost:9092`
+`>Test Message`
 
 Now run Flask project by type in Commandline:
-### `py run.py`
+#### `py run.py`
 
 App will be running on [http://127.0.0.1:5002/form]
