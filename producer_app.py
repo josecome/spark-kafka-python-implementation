@@ -13,7 +13,7 @@ def form():
         lastname = request.form['password'] # c2gx42pwhp9ym4x5p0brniturk834j
         
         if all(v is not None for v in [firstname, lastname]):
-            _str = '{ "firstname": "' + str(firstname) + '", "lastname": "' + str(firstname) + '"}'
+            _str = '{ "firstname": "' + str(firstname) + '", "lastname": "' + str(lastname) + '"}'
             producer.send('my_favorite_topic', bytes(str(_str), encoding='utf8'))
             producer.flush()
 
