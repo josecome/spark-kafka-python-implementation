@@ -1,5 +1,8 @@
 # Kafka-python-implementation
-This project aim to demostrate implementation of kafka in real world using Python environment
+This project aim to demostrate implementation of kafka (with Flask and Spark) in real world using Python environment
+
+# What is Kafka
+Kafka is used for data integration through real-time streaming data pipelines 
 
 ## Installation
 Download and install JDK: https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html
