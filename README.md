@@ -1,7 +1,7 @@
 # Kafka-python-implementation
 This project aim to demostrate implementation of kafka (with Flask and Spark) in real world using Python environment
 
-# What is Kafka
+## What is Kafka
 Kafka is used for data integration through real-time streaming data pipelines 
 
 ## Installation
