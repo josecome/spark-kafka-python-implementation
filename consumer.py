@@ -11,8 +11,9 @@ consumer = KafkaConsumer('my_favorite_topic', bootstrap_servers='localhost:9092'
 def getting_data(out_q, c):
     x = 0
     for message in consumer:
-        ms = message.value
-        out_q.put(ms.decode('utf-8'))
+        ms = message.value.decode('utf-8')
+        print(f'Received data: {ms}')
+        out_q.put(ms)
         x += 1
         c.put(x)
     
