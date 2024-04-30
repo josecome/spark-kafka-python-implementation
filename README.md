@@ -36,3 +36,6 @@ Now run Flask project by type in Commandline:
 #### `py run.py`
 
 App will be running on [http://127.0.0.1:5002/form]
+
+# Status
+Not yet completed
